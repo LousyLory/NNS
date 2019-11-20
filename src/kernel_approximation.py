@@ -15,3 +15,4 @@ def online_row_sampling(base_vector, selected_vector_set):
     """
     performs online row sampling as in https://arxiv.org/pdf/1604.05448.pdf
     """
+    return selected_vector_set
