@@ -36,4 +36,5 @@ full_data_path = os.path.join(path_to_data, data)
 base_vectors, query_vectors = read_data(full_data_path)
 
 # compute indexed structure
-selected_vectors = compute_online(base_vectors)
+method_choices = ["AK", "ORS"]
+selected_vectors = compute_online(base_vectors, method=method_choices[0])
