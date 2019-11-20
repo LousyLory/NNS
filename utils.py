@@ -1,5 +1,6 @@
 """
-Code by Nick and Ari
+ivecs and fvecs code by Nick and Ari
+distance codes by Archan
 """
 
 import numpy as np

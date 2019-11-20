@@ -18,6 +18,6 @@ def all_query_nearest(similarity_matrix, selected_vector_set, queries):
     perform approximate nearesr neighbor for queries
     """
     dist_mat = compute_squared_distance_no_loops(selected_vector_set, queries)
-    chosen_indices = np.amin(dist_mat, axis = 1)
+    chosen_indices = np.argmin(dist_mat, axis = 1)
 
     return dist_mat, chosen_indices
